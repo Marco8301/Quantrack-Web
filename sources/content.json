@@ -1,0 +1,26 @@
+[
+  {
+    "0": {
+      "title": "Our services - Professional Websites",
+      "content": "<span style='color: #018db0'>const</span> <span class='product-title'>PROFESSIONNALWEBSITE</span> = Your business needs nothing more than a \"Regular\" Website ? <p>By carefully balancing interactive components and SEO-optimized design, we deliver websites that both captivate their visitors, load fast so you won't lose visitors and reach high SEO standards.</p> <p>As a result, you get much better chances for effective web presence.</p>"
+    }
+  },
+  {
+    "0": {
+      "title": "Our services - Interactive Web Apps",
+      "content": "<span style='color: #018db0'>let</span> <span class='product-title'>interactiveWebApps</span> = Quantrack approaches custom web application deve lopment as a collaboration that focuses on outcomes for your company and end - consumers alike. <p>We apply the mobile - first concept, which is reflected in our web applications. Thanks to modern HTML5 concepts like responsive web design approach, mobile and web platform support can be parallelized making the development faster without trade - offs in quality.</p>"
+    }
+  },
+  {
+    "0": {
+      "title": "Our services - Progressive Web Apps",
+      "content": "<span style='color: #018db0'>var</span> <span class='product-title'>progressiveWebApps</span> = Need a website and a mobile app that share the same code? Then you should definitely look for a Progressive Web App. <p>PWA provide the best experience you can get on a desktop or mobile device. It is basically a website that behaves as an app on mobile devices. </p>PWAs will replace more than 50% of existing mobile apps by the end of 2021 . We develop mobile - enabled progressive web apps in line with Google’s definition of ‘progressiveness’, making them fast even on 2G networks, offline - available, and easily installable on a user’s home screen."
+    }
+  },
+  {
+    "0": {
+      "title": "Our services - Web Project Management",
+      "content": "<span style='color: #018db0'>function</span> <span class='product-title'>webProjectManagement()</span> { <br>Having developpers is great, but manage them and deliver you the best project-management experience is not something everyone does. <p>Quantrack will hire, set up and manage your own team of software developers in Colombia. Any technology stack, excellent skills, fully managed, flexible contract.</p> We guarantee the best candidates that match your project requirements.<br>}"
+    }
+  }
+]

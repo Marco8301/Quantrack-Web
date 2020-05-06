@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Quantrack Web - Remote-native web agency"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantrack Web - Remote-native web agency</title>
+    <script src="./js/lib/jquery-3.4.0.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ce9a5e3fb3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="./favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#003746" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav id="nav">
+        <div id="logo-container">
+          <img id="logo" src="./sources/img/quantrack-logo.png" alt="" />
+        </div>
+        <div id="navlink-container">
+          <a class="navlink" href="#section-products">Services</a>
+          <a class="navlink" href="#section-workflow">Approach</a>
+          <a class="navlink" href="#section-team">Team</a>
+          <a class="navlink" href="#section-contact-quote">Contact Us</a>
+        </div>
+        <div id="btn-menu">
+          <span>
+            <i id="btn-hamburger" class="fas fa-bars"></i>
+          </span>
+        </div>
+      </nav>
+      <div id="navlink-mobile" class="hidden">
+        <div id="navlink-container-mobile">
+          <a class="navlink" href="#section-products">Services</a>
+          <a class="navlink" href="#section-workflow">Approach</a>
+          <a class="navlink" href="#section-team">Team</a>
+          <a class="navlink" href="#section-contact-quote">Contact Us</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="section-header">
+        <video
+          style="width: 100%; opacity: 0.3;"
+          preload
+          autoplay="true"
+          loop="true"
+          muted="true"
+          poster="./sources/poster.jpg"
+        >
+          <source src="./sources/Pexels-Videos-2833.mp4" type="video/mp4" />
+        </video>
+
+        <div id="claim">
+          <article id="article-header">
+            <h1>
+              Innovative web development at a fair price
+            </h1>
+            <h2>
+              Nearshoring made easy: Seamless collaboration, Total transparency,
+              Secure delivery
+            </h2>
+            <a class="btnlink" href="#section-quote"
+              >Get a quote <span><i class="fas fa-chevron-right"></i></span
+            ></a>
+          </article>
+          <div id="divdiscover">
+            <span id="spandiscover"></span
+            ><a href="#section-products" id="discover">Discover our services</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-products">
+        <h2 class="title">Our Services</h2>
+        <div class="container-services-text">
+          <p>
+            Our team of Developers based in Canada and Colombia creates
+            state-of-the-art websites and mobile applications on all platforms.
+            Excellent communication is the key to project success. We combine a
+            broad set of development skills with a professional quality
+            guaranteed
+          </p>
+        </div>
+
+        <div id="container-products">
+          <div>
+            <a href="#console" class="product-btn">
+              <div class="div-products">
+                <h4 class="h4-btn">Professional Websites</h4>
+              </div>
+            </a>
+
+            <a href="#console" class="product-btn">
+              <div class="div-products">
+                <h4 class="h4-btn">Interactive Web Apps</h4>
+              </div>
+            </a>
+
+            <a href="#console" class="product-btn">
+              <div class="div-products">
+                <h4 class="h4-btn">Progressive Web Apps</h4>
+              </div>
+            </a>
+
+            <a href="#console" class="product-btn">
+              <div class="div-products">
+                <h4 class="h4-btn">Web Project Management</h4>
+              </div>
+            </a>
+          </div>
+
+          <div id="console">
+            <div id="console-header">
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
+              <div id="console-header-title"></div>
+            </div>
+
+            <div id="console-main">
+              <div id="console-left-column"></div>
+              <div id="console-container">
+                <div class="div-product-description">
+                  <p class="product-description"></p>
+                </div>
+
+                <div class="div-product-description">
+                  <p class="product-description"></p>
+                </div>
+
+                <div class="div-product-description">
+                  <p class="product-description"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-workflow">
+        <h2 class="title white">
+          What Makes us<br />
+          Different
+        </h2>
+        <img id="arrow" src="./sources/img/fleche2.png" alt="" />
+
+        <div>
+          <article class="article-workflow">
+            <div>
+              <h3>Customizable and Scalable</h3>
+              <p>
+                Web development needs vary significantly. To cover the full
+                spectrum of possibilities, we offer end-to-end web services
+                across a range of platforms and technologies. We work with you
+                to determine the ideal technology stack for your project and
+                make sure it can scale with your success.
+              </p>
+            </div>
+          </article>
+
+          <article class="article-workflow">
+            <div>
+              <h3>Always Working</h3>
+              <p>
+                Being remote-native we live across 8 time-zones and thus your
+                project is developed days and nights. We have a continuous
+                development cycle and are available almost 24/7. That’s a
+                perfect timing for collaboration between Canada, Latin America
+                and Europe. We offer the best of nearshoring.
+              </p>
+            </div>
+          </article>
+
+          <article class="article-workflow">
+            <div>
+              <h3>Business-minded Developers</h3>
+              <p>
+                Being professional starts with a clear communication : we
+                organize weekly calls, regular planning sessions, and access to
+                interactive comm channels. Plus, we understand you may want to
+                protect your idea in all ways possible. We’re open to signing
+                NDAs.
+              </p>
+            </div>
+          </article>
+
+          <article class="article-workflow">
+            <div>
+              <h3>Costs effective</h3>
+              <p>
+                Your billing is based on the number of hours worked by the
+                project team, so you know exactly what you’re paying for. We
+                define with you the level of expertise really needed to help
+                lower your budget and the mixed nature of our development team
+                from Canada and Colombia allow us to offer you the best quality
+                at a fair price.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="section-team">
+        <h2 class="title">Meet the team</h2>
+        <div id="container-team">
+          <article class="article-team">
+            <div>
+              <img src="./sources/img/avatar.png" alt="" />
+              <h3>Arnaud THEVENET</h3>
+            </div>
+            <small>CEO</small>
+            <p class="p-team">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+              nobis nostrum enim ullam facere consequatur omnis ad reiciendis,
+              tempora labore, et animi cum ipsa! Fugit natus reiciendis dolor
+              enim suscipit.
+            </p>
+          </article>
+
+          <article class="article-team">
+            <div>
+              <img src="./sources/img/avatar.png" alt="" />
+              <h3>Neil A.</h3>
+            </div>
+            <small>CTO</small>
+
+            <p class="p-team">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+              nobis nostrum enim ullam facere consequatur omnis ad reiciendis,
+              tempora labore, et animi cum ipsa! Fugit natus reiciendis dolor
+              enim suscipit.
+            </p>
+          </article>
+
+          <article class="article-team">
+            <div>
+              <img src="./sources/img/avatar.png" alt="" />
+              <h3>Marc-Antoine MALASPINA</h3>
+            </div>
+            <small>COO</small>
+
+            <p class="p-team">
+              Spent 5 years as a Digital Producer in a Communication Agency in
+              Paris, then switched to web development.
+            </p>
+            <p class="p-team">
+              Traveled in South America for a few months as a digital nomad.
+            </p>
+            <p class="p-team">
+              In charge of project management and web development.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- <section id="section-testimonials">
+        <h2 class="title">They use Quantrack AI</h2>
+        <div id="container-testimonials">
+          <article class="article-testimonials">
+            <p class="p-testimonials">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+              nobis nostrum enim ullam facere consequatur omnis ad reiciendis,
+              tempora labore, et animi cum ipsa! Fugit natus reiciendis dolor
+              enim suscipit.
+            </p>
+            <p>John Doe</p>
+            <p>CEO @ Company</p>
+          </article>
+          <article class="article-testimonials">
+            <p class="p-testimonials">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+              nobis nostrum enim ullam facere consequatur omnis ad reiciendis,
+              tempora labore, et animi cum ipsa! Fugit natus reiciendis dolor
+              enim suscipit.
+            </p>
+            <p>John Doe</p>
+            <p>CEO @ Company</p>
+          </article>
+        </div>
+      </section> -->
+
+      <section id="section-contact-quote">
+        <section id="section-contact">
+          <h2 class="title white">Meet Us</h2>
+          <div class="container-contact-quote">
+            <div class="container-contact-quote-text">
+              <p>
+                Our team is spread across 3 continents and 8 time - zones. Even
+                if remote work is a core value of our company, having a place to
+                meet in real life is hugely enjoyable. Let’s have a coffee, or a
+                tea, at one of our location and get to know each other!
+              </p>
+              <p>
+                As travel addicts wea re always moving around and you can
+                currently find us there:
+              </p>
+            </div>
+            <div id="container-contact-articles">
+              <article>
+                <img src="./sources/img/Toronto.jpg" alt="Toronto" />
+                <div>
+                  <h3>Toronto</h3>
+                  <p>Hichem is here</p>
+                  <!-- <small>10 address street</small>
+                  <small>NY 0000</small> -->
+                  <a class="mailtolink" href="mailto:"
+                    >email@torontooffice.com</a
+                  >
+                  <a class="phonelink" href="tel:+">Phone : 08 36 65 65 65</a>
+                </div>
+              </article>
+
+              <article>
+                <img src="./sources/img/Medellin.jpg" alt="Medellin" />
+
+                <div>
+                  <h3>Medellin</h3>
+                  <p>Rest of the team is here</p>
+                  <!-- <small>10 address street</small>
+                  <small>Medellin 0000</small> -->
+                  <a class="mailtolink" href="mailto:"
+                    >email@medellinoffice.com</a
+                  >
+                  <a class="phonelink" href="tel:+">Phone : 08 36 65 65 65</a>
+                </div>
+              </article>
+
+              <article>
+                <img src="./sources/img/Paris.jpg" alt="Paris" />
+                <div>
+                  <h3>Paris</h3>
+                  <p>Arnaud and Marco are here</p>
+                  <!-- <small>10 address street</small>
+                  <small>Tallin 0000</small> -->
+                  <a class="mailtolink" href="mailto:">email@parisoffice.com</a>
+                  <a class="phonelink" href="tel:+">Phone : 08 36 65 65 65</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="section-quote">
+          <h2 class="title white">Get a Quote</h2>
+          <div class="container-contact-quote">
+            <div class="container-contact-quote-text">
+              <p>
+                If you can’t make it to one of our location, there’s still the
+                internet to connect. We would be more than happy to give you
+                extra information on our services or talk about any
+                question/suggestion you may have. <br />Bonus: we speak fluently
+                French, English and Spanish!
+              </p>
+            </div>
+            <div id="container-quote-form">
+              <form action="./php/controller/FormController.php" method="post">
+                <fieldset>
+                  <input
+                    type="text"
+                    name="inputName"
+                    id="inputName"
+                    placeholder="Complete Name"
+                    required
+                    autocomplete="off"
+                  />
+                  <input
+                    type="email"
+                    name="inputEmail"
+                    id="inputEmail"
+                    placeholder="Email"
+                    required
+                    autocomplete="off"
+                  />
+                </fieldset>
+
+                <fieldset>
+                  <input
+                    type="text"
+                    name="inputCompany"
+                    id="inputCompany"
+                    placeholder="Company"
+                    required
+                    autocomplete="off"
+                  />
+                  <input
+                    type="text"
+                    name="inputPosition"
+                    id="inputPosition"
+                    placeholder="Position"
+                    required
+                    autocomplete="off"
+                  />
+                </fieldset>
+                <fieldset>
+                  <textarea
+                    name="inputMessage"
+                    id="inputMessage"
+                    cols="30"
+                    rows="10"
+                    required
+                    placeholder="Describe your needs"
+                    autocomplete="off"
+                  ></textarea>
+                </fieldset>
+                <button
+                  class="btnlink"
+                  id="submitBtn"
+                  name="submitBtn"
+                  type="submit"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="section-quantrack-universe">
+        <h2 class="title">
+          <span>We're part of the</span> Quantrack Tech Universe
+        </h2>
+        <div id="container-quantrack-universe">
+          <p>
+            Quantrack’s mission is about modern company building: We start with
+            an idea and transform it into a controlled fast - growing product
+            and, most of all, hea lthy business.
+          </p>
+          <p>
+            Quantrack’s companies are places where great people can be inspired
+            and enabled to do the best and most meaningful work of their
+            careers.
+          </p>
+          <a class="btnlink" target="blank" href="http://quantrack.io/"
+            >Visit Quantrack.io <span><i class="fas fa-chevron-right"></i></span
+          ></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <a href="#section-products">Services</a>
+        <a href="#section-workflow">Approach</a>
+        <a href="#section-team">Team</a>
+        <a href="#section-contact-quote">Contact Us</a>
+      </nav>
+      <div>
+        <img src="./sources/img/quantrack-logo.png" alt="" />
+        <p>
+          Quantrack builds innovative algorithmics strategies to help you
+          leverage the power of your data.
+        </p>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
