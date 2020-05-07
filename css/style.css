@@ -59,7 +59,7 @@ header {
 }
 
 #section-contact {
-    margin-bottom:5rem;
+    margin-bottom:2rem;
 }
 
 #section-quote {
@@ -592,7 +592,8 @@ border-bottom: 1px solid darkorange;
 }
 
 .phonelink {
-    display:inline-block;
+    display:none;
+    /* display:inline-block; */
     background-color: rgba(0,55,70,1);
     font-size: 0.7rem;
     padding:4%;
@@ -735,7 +736,6 @@ footer div p {
 
 @media (max-width: 399px) { 
 
-   
 
     video {
         display:none;
@@ -991,8 +991,6 @@ footer div p {
 @media (min-width: 500px) and (max-width: 767px) { 
 
 
-
-
     #claim{
         top: 3%;
     }
@@ -1216,7 +1214,6 @@ footer div p {
 @media (min-width: 768px) and (max-width: 991px) { 
 
 
-
     #article-header {
         width: 80%;
     }
@@ -1254,6 +1251,10 @@ footer div p {
         width: 80%;
     }
 
+    #container-contact-articles {
+        margin-top: -5rem;
+    }
+
     #container-contact-articles article img {
         width:9rem;
     }
@@ -1265,7 +1266,6 @@ footer div p {
 
  @media (min-width: 992px) and (max-width: 1199px) {  
 
-  
 
     #arrow {
         width: 60%;

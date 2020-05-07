@@ -263,7 +263,7 @@ if(isset($_POST["submitBtn"])) {
         </html>';
 
 
-    $send = mail('marcanmalas@gmail.com', $subject, $body, $headers);
+    $send = mail('arnaud.thevenet@quantrack.io', $subject, $body, $headers);
 
 
 
