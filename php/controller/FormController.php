@@ -12,7 +12,7 @@ if(isset($_POST["submitBtn"])) {
     // $addToDB = new AddToDB($inputName, $inputEmail, $inputCompany, $inputPosition);
     // $addToDB->submitForm();
 
-    // Send mail to quantrack AI Contact address
+    // Send mail to Quantrack Web Contact address
     $subject = 'New message from '. $inputName;
     $headers = "Content-type: text/html; charset= iso-8859-1\n"; 
 
@@ -154,7 +154,7 @@ if(isset($_POST["submitBtn"])) {
                                 Hi there,</p>
                               <p
                                 style="font-family: sans-serif; font-size: 15px; font-weight: normal; margin: 0; Margin-bottom: 15px; color: #142738;">
-                                You got a new message from Quantrack AI Website !
+                                You got a new message from Quantrack Web Website !
                               </p>
         
                               <ul
@@ -216,7 +216,7 @@ if(isset($_POST["submitBtn"])) {
         
                                 <p
                                   style="font-family: sans-serif; font-size: 13px; font-weight: normal; margin: 0; Margin-bottom: 15px; color: #142738;">
-                                  You received this email because you are registered as Quantrack AI Website contact address.</p>
+                                  You received this email because you are registered as Quantrack Web Website contact address.</p>
     
                               </td>
                             </tr>
@@ -234,7 +234,7 @@ if(isset($_POST["submitBtn"])) {
         
                                 <small
                                   style="font-family: sans-serif; font-size: 11px; font-weight: normal; margin: 0; Margin-bottom: 15px; color: grey;">
-                                  Copyright Quantrack AI - 2020.
+                                  Copyright Quantrack Web - 2020.
                                 </small>
         
                               </td>
