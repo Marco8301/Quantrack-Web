@@ -142,6 +142,11 @@ header nav {
     line-height: 1.15;
 }
 
+video {
+    width: 100%;
+    opacity: 0.3;
+}
+
 #article-header h1 {
     font-family: "Poppins";
     font-size: 2.4rem;
@@ -702,9 +707,16 @@ footer * {
 }
 
 footer nav, footer div {
-    width:40%;
     text-align: center;
     padding:1%;
+}
+
+footer nav {
+    width:80%;
+}
+
+footer div {
+    width:40%;
 }
 
 footer nav a {
@@ -735,6 +747,7 @@ footer div p {
 
 
 @media (max-width: 399px) { 
+
 
 
     video {
@@ -989,7 +1002,6 @@ footer div p {
 
 
 @media (min-width: 500px) and (max-width: 767px) { 
-
 
     #claim{
         top: 3%;
@@ -1271,7 +1283,13 @@ footer div p {
         width: 60%;
         right: 25%;
     }
+ }
 
+ @media (min-width: 1350px) {  
+
+    #arrow {
+        display:none;
+    }
  }
 
 
